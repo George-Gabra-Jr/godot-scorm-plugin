@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<courseStructure xmlns="https://w3id.org/xapi/profiles/cmi5/v1/CourseStructure.xsd">
+  <!-- Course details -->
+  <course id="http://progressiosolutions.com/godot-scorm-demo">
+    <title>
+      <langstring lang="en-US">Godot Scorm Demo</langstring>
+    </title>
+    <description>
+      <langstring lang="en-US">
+        This course contains an interactive web-based experience built with Godot. The course includes game-like elements and interactive learning materials.
+      </langstring>
+    </description>
+  </course>
+
+  <!-- Assignable Unit (AU) details -->
+  <au id="http://progressiosolutions.com/godot-scorm-demo/aus/au">
+    <title>
+      <langstring lang="en-US">Godot Scorm Demo AU</langstring>
+    </title>
+    <description>
+      <langstring lang="en-US">
+        This AU launches an interactive module that runs in a web browser using Godot's exported HTML and WebAssembly (WASM) files. It includes interactive lessons and activities.
+      </langstring>
+    </description>
+    <url>index.html</url>
+  </au>
+</courseStructure>
+
