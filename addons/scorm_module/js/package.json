@@ -1,0 +1,35 @@
+{
+  "name": "godot-scorm-again",
+  "version": "0.0.1",
+  "description": "A JS wrapper for scorm-again preparing it for integration with a Godot addon",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "godot",
+    "scorm",
+    "scorm-again",
+    "scorm1.2",
+    "web-games",
+    "lms",
+    "education",
+    "game"
+  ],
+  "author": "George Gabra <george.gabra.jr@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.7.8",
+    "html-loader": "^5.1.0",
+    "html-minifier-terser": "^7.0.0",
+    "html-webpack-plugin": "^5.6.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "scorm-again": "^2.1.0"
+  }
+}
