@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "webpack --mode production",
-    "prepare-scorm": "node src/render-tincan.js; zip -r scorm.zip ../../../../../../export/web"
+    "prepare-scorm": "node src/render-tincan.js; zip -r ../../../export/scorm.zip ../../../export/web"
   },
   "keywords": [
     "godot",
