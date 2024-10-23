@@ -12,10 +12,10 @@ func _process(delta):
 func win_game():
 	SCORM.scorm_initialize()
 	var score = self.get_node("TextEdit").text
-	if OS.get_name() == "Web":
-		SCORM.scorm_set_value("score", "10")
-		SCORM.scorm_commit()
-		SCORM.scorm_terminate()
+	SCORM.scorm_set_value("score", score)
+	var res = SCORM.scorm_get_value("score")
+	print(res)
+	SCORM.scorm_commit()
 	get_tree().quit()
 
 

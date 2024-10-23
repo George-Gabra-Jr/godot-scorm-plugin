@@ -1,0 +1,15 @@
+# Godot 4+ specific ignores
+.godot/
+export/
+
+# Node.js specific ignores
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.DS_Store
+.env
+
+# Visual Studio Code specific ignores
+.vscode/

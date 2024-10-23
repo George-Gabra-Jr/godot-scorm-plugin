@@ -19,6 +19,10 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
         test: /\.html$/,
         use: [
           {
@@ -44,8 +48,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './src/template.html',
-      filename: 'template.html',
+      template: './src/html_shell.html',
+      filename: 'html_shell.html',
       inject: 'body',
       minify: {
         removeComments: true,
