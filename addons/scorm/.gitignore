@@ -1,15 +1,61 @@
-# Godot 4+ specific ignores
-.godot/
-export/
-
-# Node.js specific ignores
 node_modules/
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 dist/
 build/
 .DS_Store
 .env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
 
-# Visual Studio Code specific ignores
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional coverage directory
+coverage/
+
+# Optional build directory
+build/
+
+# Miscellaneous
+*.sublime-project
+*.sublime-workspace
+.idea/
 .vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional stylelint cache
+.stylelintcache
